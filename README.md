@@ -16,6 +16,6 @@
     **Opción 2: Usando `environment.yml` (uso exclusivo con Anaconda)**
     ```bash
     conda env create -f environment.yml
-    conda activate animal-classifier-env # 'animal-classifier-env' es el nombre del entorno definido en environment.yml
+    conda activate clasificador-imagenes # 'clasificador-imagenes' es el nombre del entorno definido en environment.yml
     ```
 ---
