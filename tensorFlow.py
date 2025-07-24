@@ -105,7 +105,7 @@ class ImageClassifierApp:
         self.master.resizable(False, False)
 
     def cargar_modelo(self):
-        self.model = tf.keras.models.load_model("modelo_clasificador_mejorado.h5")
+        self.model = tf.keras.models.load_model("modelo_clasificador.h5")
         self.class_names = class_names
 
     def construir_interfaz(self):
