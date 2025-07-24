@@ -7,9 +7,9 @@
 
     **Opción 1: Usando `requirements.txt` (recomendado con `venv`)**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # En Linux/macOS
-    # venv\Scripts\activate  # En Windows
+    py -3.10 -m venv tf-env
+    .\tf-env\Scripts\activate
+    python -m pip install --upgrade pip
     pip install -r requirements.txt
     ```
 
